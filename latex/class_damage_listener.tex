@@ -1,0 +1,81 @@
+\doxysection{Damage\+Listener Class Reference}
+\hypertarget{class_damage_listener}{}\label{class_damage_listener}\index{DamageListener@{DamageListener}}
+
+
+Inheritance diagram for Damage\+Listener\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=167pt]{class_damage_listener__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Damage\+Listener\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=167pt]{class_damage_listener__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+Event\+Type\+Enum \mbox{\hyperlink{class_damage_listener_ad25a78a43aad63d60b75c8de117488b6}{get\+Event\+Type}} () const override
+\item 
+void \mbox{\hyperlink{class_damage_listener_ad0eda2db453be450ac7c326bf7bf730e}{on\+Event}} (bool is\+Active\+\_\+) override
+\item 
+\Hypertarget{class_damage_listener_a316cdc8c8e0b202fde31bf1172f54025}\label{class_damage_listener_a316cdc8c8e0b202fde31bf1172f54025} 
+float {\bfseries get\+Damage\+Amount} () const
+\item 
+\Hypertarget{class_damage_listener_aa3f010091ab4c43753d5aadead7c8cfc}\label{class_damage_listener_aa3f010091ab4c43753d5aadead7c8cfc} 
+int {\bfseries get\+Event\+ID} () const
+\item 
+\Hypertarget{class_damage_listener_a1ad8163652c10cc2a97f6c2500ca1f9b}\label{class_damage_listener_a1ad8163652c10cc2a97f6c2500ca1f9b} 
+bool {\bfseries get\+Is\+Active} () const
+\item 
+\Hypertarget{class_damage_listener_a79a94988342c19ae14762dcbddf4e04a}\label{class_damage_listener_a79a94988342c19ae14762dcbddf4e04a} 
+void {\bfseries set\+Damage\+Amount} (const float amount)
+\item 
+\Hypertarget{class_damage_listener_a897bdd8b3cfc3a636eb0b820beed2319}\label{class_damage_listener_a897bdd8b3cfc3a636eb0b820beed2319} 
+{\bfseries Damage\+Listener} (const int id)
+\item 
+\Hypertarget{class_damage_listener_a9649995c5378ccc5387a3dd5527d6b0d}\label{class_damage_listener_a9649995c5378ccc5387a3dd5527d6b0d} 
+{\bfseries Damage\+Listener} (const int id, const float amount=0)
+\item 
+\Hypertarget{class_damage_listener_a4859e243d52caac14b8ad5d098986036}\label{class_damage_listener_a4859e243d52caac14b8ad5d098986036} 
+{\bfseries Damage\+Listener} (const int id, const float amount=0, const Damage\+Type\+Enum type=Damage\+Type\+Enum\+::\+NONE)
+\end{DoxyCompactItemize}
+
+
+\label{doc-func-members}
+\Hypertarget{class_damage_listener_doc-func-members}
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_damage_listener_ad25a78a43aad63d60b75c8de117488b6}\index{DamageListener@{DamageListener}!getEventType@{getEventType}}
+\index{getEventType@{getEventType}!DamageListener@{DamageListener}}
+\doxysubsubsection{\texorpdfstring{getEventType()}{getEventType()}}
+{\footnotesize\ttfamily \label{class_damage_listener_ad25a78a43aad63d60b75c8de117488b6} 
+Event\+Type\+Enum Damage\+Listener\+::get\+Event\+Type (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Implements \mbox{\hyperlink{class_event_listeners}{Event\+Listeners}}.
+
+\Hypertarget{class_damage_listener_ad0eda2db453be450ac7c326bf7bf730e}\index{DamageListener@{DamageListener}!onEvent@{onEvent}}
+\index{onEvent@{onEvent}!DamageListener@{DamageListener}}
+\doxysubsubsection{\texorpdfstring{onEvent()}{onEvent()}}
+{\footnotesize\ttfamily \label{class_damage_listener_ad0eda2db453be450ac7c326bf7bf730e} 
+void Damage\+Listener\+::on\+Event (\begin{DoxyParamCaption}\item[{bool}]{is\+Active\+\_\+}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Implements \mbox{\hyperlink{class_event_listeners}{Event\+Listeners}}.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Damage\+Listener.\+h\item 
+Damage\+Listener.\+cpp\end{DoxyCompactItemize}
